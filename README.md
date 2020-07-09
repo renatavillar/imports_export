@@ -16,4 +16,4 @@ I worked mainly on the following topics:
 - For each of the products in the dataset, to find the 5 most important states in terms of exports;
 - To build a model in order to predict the total annual exports of brazilian soybeans, soybean_meal and corn, in tons, for the next 11 years (2020-2030).
 
-I am working on the model, to get a good fit (it is far away of being well fitted). By now, I think XGBoost is the best option, but any suggestion to get a good fit is welcome.
+I am working on the model, to get a good fit (it is far away of being well fitted). By now, I think XGBoost is the best option, but any suggestion to get a good fit is welcome. The correlation of the response variable with each of the features is extremely bad, as we can see in notebook case2.ipynb. We need to colect more features, outside the given dataset. We need features that explain the target variable (tons).
